@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: lightblue;
+}
+#base div{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    letter-spacing: 1px;
+    color:blanchedalmond;
+}
+#base{
+    margin: 150px auto;
+    width: 500px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: teal;
+}
+#area{
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+    border-radius: 1em;
+    border: 1px solid black;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 80px;
+    border: none;
+    border: 1px solid springgreen;
+    height: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+#let:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+#result{
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
