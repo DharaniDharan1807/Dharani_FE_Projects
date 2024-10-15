@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blurr_site</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <div id="wrapper">
+      <h2>String reverse</h2>
+      <div>
+      <input type="text" placeholder="Enter Sentence" id="input">
+      </div>
+      <div>
+      <button type="submit" onclick="print()">Submit</button>
+      </div>
+      <div id="result">
+        
+      </div>
+    </div>
+<script>
+    function print(){
+        let str=document.getElementById("input").value
+        let reverse=str.split("").reverse().join("")
+        let result=document.getElementById("result")
+        result.innerHTML=reverse
+    
+    }
+  
+    </script>
+
+   </div>
+</body>
+</html>
